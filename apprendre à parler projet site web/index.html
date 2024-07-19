@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apprendre de nouvelles langues facilement</title>
+    <script type="module" src="https://unpkg.com/@splinetool/viewer@1.9.0/build/spline-viewer.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <script src="test.js"></script>
+</head>
+<body>
+    <div class="centerBox">
+        <spline-viewer url="https://prod.spline.design/pRmuW1wg8uC1OO4Z/scene.splinecode"></spline-viewer>
+        <div class="categoryWrapper">
+            <h1>Apprendre de nouvelles langues</h1>
+            <div class="button-container">
+                <button onclick="displayRandomEnglishWords()">
+                    <span><span><span data-attr-span="Mot anglais aléatoire">Mot anglais aléatoire</span></span></span>
+                </button>
+                <div id="englishWord" class="word-display"></div>
+            </div>
+            <div class="button-container">
+                <button onclick="displayRandomPortugueseWords()">
+                    <span><span><span data-attr-span="Mot portugais aléatoire">Mot portugais aléatoire</span></span></span>
+                </button>
+                <div id="portugueseWord" class="word-display"></div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
